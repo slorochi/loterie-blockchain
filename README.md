@@ -50,10 +50,11 @@ Cela va compiler le contrat, puis le déployer sur le réseau local. Une fois d�
 
 ### Étape 5 : Configurer l'application Frontend (React)
 Modifier le fichier LotteryConfig.js
-Dans le dossier frontend/src, ouvrez le fichier LotteryConfig.js et assurez-vous que l'adresse du contrat et l'ABI sont bien configurées. Allez dans le dossier frontend 
+Dans le dossier frontend/src, ouvrez le fichier LotteryConfig.js et assurez-vous que l'adresse du contrat et l'ABI sont bien configurées. Allez dans le dossier frontend puis installez les dépendances
 
 ```bash
 cd frontend
+npm install
 ```
 Puis modifiez le fichier js ; Voici un exemple de configuration :
 
